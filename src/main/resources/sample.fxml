@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="242.0" prefWidth="354.0">
+         <children>
+            <TextField fx:id="url" layoutX="60.0" layoutY="32.0" />
+            <TextField fx:id="contents" layoutX="60.0" layoutY="76.0" />
+            <Button layoutX="60.0" layoutY="121.0" mnemonicParsing="false" onAction="#OnCheckButtonClick" text="check" />
+            <Label fx:id="result" layoutX="60.0" layoutY="175.0" prefHeight="32.0" prefWidth="62.0" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
